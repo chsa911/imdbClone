@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cecdaba-95a5-431b-b2f5-b5d04387158a" name="Changes" comment="implement CreateMovie">
+    <list default="true" id="1cecdaba-95a5-431b-b2f5-b5d04387158a" name="Changes" comment="implement button to add a movie">
+      <change afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/BackButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Spinner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CreateMovie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CreateMovie.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +39,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2qdRq0w1bzjMo4YiEwIGaKZwh1D" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -98,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735037784491</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implement button to add a movie">
+      <option name="closed" value="true" />
+      <created>1735040974461</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735040974461</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="implement CreateMovie" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement CreateMovie" />
+    <MESSAGE value="implement button to add a movie" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement button to add a movie" />
   </component>
 </project>

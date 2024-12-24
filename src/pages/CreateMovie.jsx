@@ -1,11 +1,11 @@
-"import React, { useState } from 'react';
-import BackButton from '../components/BackButton';
-import Spinner from '../components/Spinner';
+import React, { useState } from 'react';
+import BackButton from '../components/home/BackButton';
+import Spinner from '../components/home/Spinner';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { useSnackbar } from 'notistack';
 
-const CreateMovies = () => {
+const CreateMovie = () => {
   const [name, setName] = useState('');
   const [img, setImg] = useState('');
   const [year, setYear] = useState('');
@@ -90,7 +90,7 @@ const CreateMovies = () => {
             className='border-2 border-gray-500 px-4 py-2  w-full '
           />
         </div>
-        <button className='p-2 bg-sky-300 m-8' onClick={handleSaveBook}>
+        <button className='p-2 bg-sky-300 m-8' onClick={handleSaveMovie}>
           Save
         </button>
       </div>
@@ -98,4 +98,4 @@ const CreateMovies = () => {
   );
 }
 
-export default CreateMovies
+export default CreateMovie

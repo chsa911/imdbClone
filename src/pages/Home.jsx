@@ -1,16 +1,18 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Table from "./components/Table";
-import Sort from "./components/Sort";
-import Genre from "./components/Genre";
-import Pagination from "./components/Pagination";
-import Search from "./components/Search";
-import "./App.css";
-import { MdOutlineAddBox, MdOutlineDelete } from 'react-icons/md';
+import Table from "../components/Table";
+import Sort from "../components/Sort";
+import Genre from "../components/Genre";
+import Pagination from "../components/Pagination";
+import Search from "../components/Search";
+import "../App.css";
+import { MdOutlineAddBox } from 'react-icons/md';
+/*import CreateMovie from "../pages/CreateMovie.jsx";*/
+import { Link } from 'react-router-dom';
 
 const base_url = process.env.REACT_APP_API_URL;
 
-function App() {
+function Home() {
 	const [obj, setObj] = useState({});
 	const [sort, setSort] = useState({ sort: "rating", order: "desc" });
 	const [filterGenre, setFilterGenre] = useState([]);
@@ -57,14 +59,14 @@ function App() {
 							genres={obj.genres ? obj.genres : []}
 							setFilterGenre={(genre) => setFilterGenre(genre)}
 						/>
-{/*<Link to='/movies/create'>*/}
+<Link to='/movies/create'>
           <MdOutlineAddBox className='text-sky-800 text-4xl' />
-     {/*   </Link>*/}
-					</div>
+     </Link>
+							</div>
 				</div>
 			</div>
 		</div>
-	);
+		);
 }
 
-export default App;
+export default Home;
