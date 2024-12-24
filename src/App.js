@@ -6,6 +6,7 @@ import Genre from "./components/Genre";
 import Pagination from "./components/Pagination";
 import Search from "./components/Search";
 import "./App.css";
+import { MdOutlineAddBox, MdOutlineDelete } from 'react-icons/md';
 
 const base_url = process.env.REACT_APP_API_URL;
 
@@ -56,6 +57,9 @@ function App() {
 							genres={obj.genres ? obj.genres : []}
 							setFilterGenre={(genre) => setFilterGenre(genre)}
 						/>
+{/*<Link to='/movies/create'>*/}
+          <MdOutlineAddBox className='text-sky-800 text-4xl' />
+     {/*   </Link>*/}
 					</div>
 				</div>
 			</div>
